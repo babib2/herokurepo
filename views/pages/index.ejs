@@ -1,66 +1,329 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <% include ../partials/header.ejs %>
-</head>
-
-<body>
-
-  <% include ../partials/nav.ejs %>
-
-<div class="jumbotron text-center">
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+         <script src="js/jquery.slabtext.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css"> -->
+      
+      <link rel="stylesheet" href="bootstrap-678-sm/css/bootstrap.css"> 
+        <link rel="stylesheet" href="transform.css">
+        <link rel="stylesheet" href="fivecolumns.css">
+        <link rel="stylesheet" href="bootstrap_col_5.css">
+        <link rel="stylesheet" href="bottom.css">
+        <link rel="stylesheet" href="top.css">
+        <link href="css/slabtext.css" rel="stylesheet" type="text/css" />
+      <!--<link rel="stylesheet" href="bootstrap/css/bootstrap.css"> -->
+      <!--<link rel="stylesheet" href="bootstrap-xs/css/bootstrap.css"> -->
+        
+    </head><body>
+    <div id="top">
+        <div class="top-containers">
+          <p class="text-muted-top">Нумезмания</p>
+        </div>
+      </div>
+    <div class="section">
+      <div class="container">&nbsp</div>
+    </div>
+    
+<div class="section">
   <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Node on Heroku</h1>
-    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    <div class="row">
+      <!-- bootstrap/css/bootstrap.css CUSTOMIZE -->
+      <!-- <div class="flip-container" id="flip-toggle1" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');">
+        <div class="col-lg-1  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle2" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover');">
+        <div class="col-lg-1  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle3" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');">
+        <div class="col-lg-1  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle4" onclick="document.querySelector('#flip-toggle4').classList.toggle('hover');">
+        <div class="col-lg-1  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle5" onclick="document.querySelector('#flip-toggle5').classList.toggle('hover');">
+        <div class="col-lg-1  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div> -->
+
+      <!-- bootstrap_col_5.css -->
+      <!-- <div class="flip-container" id="flip-toggle1" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');">
+        <div class="col15-md-3 col15-md-offset-0 col-sm-6  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle2" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover');">
+        <div class="col15-md-3 col15-md-offset-0 col-sm-6  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle3" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');">
+        <div class="col15-md-3 col15-md-offset-0 col-sm-6  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle4" onclick="document.querySelector('#flip-toggle4').classList.toggle('hover');">
+        <div class="col15-md-3 col15-md-offset-0 col-sm-6  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle5" onclick="document.querySelector('#flip-toggle5').classList.toggle('hover');">
+        <div class="col15-md-3 col15-md-offset-0 col-sm-6  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div> -->
+      <!-- fivecolumns.css -->
+      <!-- <div class="flip-container" id="flip-toggle4" onclick="document.querySelector('#flip-toggle4').classList.toggle('hover');">
+        <div class="col-lg-1-5  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle5" onclick="document.querySelector('#flip-toggle5').classList.toggle('hover');">
+        <div class="col-lg-1-5  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle1" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');">
+        <div class="col-lg-1-5  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+          
+      
+        </div>
+      </div>
+        <div class="flip-container" id="flip-toggle2" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover'); document.querySelector('#img3').classList.toggle('delete');">
+        <div class="col-lg-1-5  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" id="img3" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+        </div>
+      </div>
+      <div class="flip-container" id="flip-toggle3" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');">
+        <div class="col-lg-1-5  flipper">
+          <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+          <img src="images/10rub6.png" class="img-responsive back hidden-xs ">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block front-xs">
+          <img src="images/10rub.png" class="img-responsive visible-xs center-block back">
+      
+        </div>
+      </div>  -->
+      <!-- <div>
+        <div class="col-xs-12 visible-xs">
+          <h3>Задача</h3>
+          
+      
+        </div>
+      </div> -->
+      <!-- СТАНДАРТНАЯ СЕТКА -->
+       <div class="flip-container" id="flip-toggle1" onclick="document.querySelector('#flip-toggle1').classList.toggle('hover');">
+            <div class="col-xs-12 col-xs-4 flipper">
+              <!-- <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+              <img src="images/10rub6.png" class="img-responsive back hidden-xs "> -->
+              <img src="images/10rub6.png" class="img-responsive center-block front-xs">
+              <img src="images/10rub9.png" class="img-responsive center-block back">
+            </div>
+          </div>
+            <div class="flip-container" id="flip-toggle2" onclick="document.querySelector('#flip-toggle2').classList.toggle('hover');">
+            <div class="col-xs-12 col-xs-4 flipper">
+              <!-- <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+              <img src="images/10rub6.png" class="img-responsive back hidden-xs "> -->
+              <img src="images/10rub6.png" id="img3" class="img-responsive center-block front-xs">
+              <img src="images/10rub9.png" class="img-responsive center-block back">
+            </div>
+          </div>
+          <div class="flip-container" id="flip-toggle3" onclick="document.querySelector('#flip-toggle3').classList.toggle('hover');">
+            <div class="col-xs-12 col-xs-4 flipper">
+              <!-- <img src="images/10rub6.png" class="img-responsive front hidden-xs ">
+              <img src="images/10rub6.png" class="img-responsive back hidden-xs "> -->
+              <img src="images/10rub6.png" class="img-responsive center-block front-xs">
+              <img src="images/10rub9.png" class="img-responsive center-block back">
+            </div>
+          </div>
+    
+      <!-- <div>
+        <div class="col-xs-12 visible-xs">
+          <h3>Задача</h3>
+          
+      
+        </div>
+      </div> -->
+
+    </div>
   </div>
 </div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
-
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
-
+    
+    <div id="footer">
+        <div class="containers">
+          <p class="text-muted">Какая из представленных монет стоит 200 рублей.</p>
+        </div>
+      </div>
 
 </body>
 </html>
+<script>
+document.onreadystatechange = function () {
+  var money;  
+  
+  var wh = widthHeight();
+  toogleImg(getOrientation(wh));
+  imgSize();
+
+  // Прослушиваем событие изменения размера страницы
+  window.addEventListener("resize", function() {
+      // Здесь получаем размеры экрана (inner/outerWidth, inner/outerHeight)
+      wh = widthHeight();
+    imgSize();
+
+    toogleImg(getOrientation(wh));
+  }, false);
+
+  function imgSize() {
+    
+    var orientation = getOrientation(wh);
+    
+    var arr = $('.col-xs-12') || $('.col-xs-4');
+    
+
+    if(orientation == "portrait")
+    {
+      
+      var spaceBody = window.outerHeight - $("#footer").height() - $("#top").height() - 50;
+      var sizeImg = spaceBody / arr.length ;
+
+    }
+    if(orientation == "landscape")
+    {
+      
+      var spaceBody = window.outerWidth;
+      var sizeImg = spaceBody / arr.length;
+      
+      
+
+    }
+
+      
+    
+    $.each(arr, function(i,val) {
+      
+      $(val).children().first().width(sizeImg);
+      
+
+    });
+  }
+
+  function widthHeight () {
+    var width = window.outerWidth;
+    var height = window.outerHeight;
+    return wh = width/height;
+  }
+
+  function getOrientation(wh) {
+    var orientation;
+    if(wh<1)
+      orientation = 'portrait';
+    else orientation = 'landscape';
+    return orientation;
+  }
+
+  //Меняет класс с -12 на 4
+  function toogleImg (orientation) {
+
+    if(!money)
+      money = $('.col-xs-12');
+
+      //console.log(orientation);
+    if(orientation == 'portrait')
+    {
+      if($(money).hasClass('col-xs-4'))
+      {
+        $(money).removeClass('col-xs-4');
+        $(money).addClass('col-xs-12');
+      }
+    }
+
+    if(orientation == 'landscape')
+    {
+
+      if($(money).hasClass('col-xs-12'))
+      {
+        $(money).removeClass('col-xs-12');
+        $(money).addClass('col-xs-4');
+      }
+    }
+  }
+}
+</script>
