@@ -1,0 +1,37 @@
+
+
+
+
+#top {
+    
+  top: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+    background: #000;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.top-containers {
+  width: auto;
+  max-width: 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+.top-containers .text-muted-top {
+    
+}
+
+.text-muted-top {
+  font-family: serif;
+  font-size: 30px;
+
+  color: #fff;
+  text-transform: uppercase;
+}
